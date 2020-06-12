@@ -1,0 +1,11 @@
+{
+	"name": "Server Info",
+	"version": "0.1",
+	"description": "This is an extention that tells you the response time and response code.",
+	"manifest_version": 2,
+	"permissions": [ "activeTab", "declarativeContent", "storage" ],
+
+	"page_action": {
+		"default_popup": "popup.html"
+	}
+}

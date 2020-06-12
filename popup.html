@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>HD Server response</h1>
+		<h2>Response Code</h2>
+		<span id="code"></span>
+		<span id="description"></span>
+		<h2>Response Time</h2>
+		<span id="time"></span>
+		<script>
+			var statusCode = context.response.meta.statusCode;
+			document.getElementById("code").innerHTML = statusCode;
+		</script>
+	</body>
+</html>

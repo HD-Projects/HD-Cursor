@@ -1,0 +1,1 @@
+var statusCode = context.response.meta.statusCode;
